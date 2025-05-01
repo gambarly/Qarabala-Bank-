@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qarabala Bank</title>
+  <style>
+    body {
+      background-color: #d6e8f7;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #003366;
+      text-shadow: 2px 2px #99ccff;
+    }
+    .card {
+      border: 5px dashed #ff6600;
+      padding: 30px;
+      margin: 20px auto;
+      max-width: 600px;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .btn {
+      background-color: #ff9900;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      background-color: #ff6600;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <h1>Qarabala Bank 💰</h1>
+  <div class="card">
+    <h2>💸 Тариф "Фантастические деньги"</h2>
+    <p>500% годовых, но только если ты веришь в магию Карабалы!</p>
+    <button class="btn" onclick="alert('Вы оформили счёт! Ваш номер: 123-QARABALA')">Оформить счёт</button>
+  </div>
+  <div class="card">
+    <h2>🔥 Секретное предложение</h2>
+    <p>Пополняется только после мемов о Карабале и его силах!</p>
+    <button class="btn" onclick="alert('Вклад принят! Пополнен на 0 мемов.')">Открыть вклад</button>
+  </div>
+  <footer>
+    ⚠️ Всё вымышлено. Это не банк. Это рофл. <br>
+    Made by broski, 2025
+  </footer>
+</body>
+</html>
